@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="continer">
+        <h1 class="heading">Currency Converter</h1>
+        <div class="from">
+            <select class="select" id="select">
+                <option value="AUD">AUD</option>
+                <option value="TL">TL</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="IIR">RRI</option>
+                <option value="JPY">JPY</option>
+                <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" id="worthFirst" value="1" min="0">
+        </div>
+        <div class="from">
+
+            <select class="select2" id="select2">
+                <option value="AUD">AUD</option>
+                <option value="TL">TL</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="IIR">RRI</option>
+                <option value="JPY">JPY</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" id="worthSecend" value="0" disabled>
+        </div>
+        <p class="exchang" id="exchang">
+            <spanc>1221</span>=<span>22343</span>
+        </p>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
